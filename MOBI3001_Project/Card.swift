@@ -14,7 +14,7 @@ class Card {
     var imgName: String;
     var revealed: Bool;
     
-    init() {
+    init () {
         val = 0;
         id = 0;
         name = "undefined";

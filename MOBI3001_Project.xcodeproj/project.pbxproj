@@ -14,6 +14,7 @@
 		50BB378A27EBAAF20011A602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BB378927EBAAF20011A602 /* Assets.xcassets */; };
 		50BB378D27EBAAF20011A602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BB378B27EBAAF20011A602 /* LaunchScreen.storyboard */; };
 		50BB379627F1151F0011A602 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB379527F1151F0011A602 /* Card.swift */; };
+		50BB379927F4C25C0011A602 /* BlackjackPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB379827F4C25C0011A602 /* BlackjackPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		50BB378C27EBAAF20011A602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50BB378E27EBAAF20011A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50BB379527F1151F0011A602 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		50BB379827F4C25C0011A602 /* BlackjackPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				50BB378B27EBAAF20011A602 /* LaunchScreen.storyboard */,
 				50BB378E27EBAAF20011A602 /* Info.plist */,
 				50BB379527F1151F0011A602 /* Card.swift */,
+				50BB379827F4C25C0011A602 /* BlackjackPlayer.swift */,
 			);
 			path = MOBI3001_Project;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				50BB378527EBAACC0011A602 /* ViewController.swift in Sources */,
 				50BB378127EBAACC0011A602 /* AppDelegate.swift in Sources */,
 				50BB378327EBAACC0011A602 /* SceneDelegate.swift in Sources */,
+				50BB379927F4C25C0011A602 /* BlackjackPlayer.swift in Sources */,
 				50BB379627F1151F0011A602 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
