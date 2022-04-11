@@ -15,6 +15,9 @@
 		50BB378D27EBAAF20011A602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BB378B27EBAAF20011A602 /* LaunchScreen.storyboard */; };
 		50BB379627F1151F0011A602 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB379527F1151F0011A602 /* Card.swift */; };
 		50BB379927F4C25C0011A602 /* BlackjackPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB379827F4C25C0011A602 /* BlackjackPlayer.swift */; };
+		50BB379C27F4D5B60011A602 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB379B27F4D5B60011A602 /* HomeViewController.swift */; };
+		50BB379F27F4D5CF0011A602 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB379E27F4D5CF0011A602 /* GameViewController.swift */; };
+		50BB37A127F4D5DF0011A602 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB37A027F4D5DF0011A602 /* CreditsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		50BB378E27EBAAF20011A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50BB379527F1151F0011A602 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		50BB379827F4C25C0011A602 /* BlackjackPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackPlayer.swift; sourceTree = "<group>"; };
+		50BB379B27F4D5B60011A602 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		50BB379E27F4D5CF0011A602 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		50BB37A027F4D5DF0011A602 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				50BB378E27EBAAF20011A602 /* Info.plist */,
 				50BB379527F1151F0011A602 /* Card.swift */,
 				50BB379827F4C25C0011A602 /* BlackjackPlayer.swift */,
+				50BB379B27F4D5B60011A602 /* HomeViewController.swift */,
+				50BB379E27F4D5CF0011A602 /* GameViewController.swift */,
+				50BB37A027F4D5DF0011A602 /* CreditsViewController.swift */,
 			);
 			path = MOBI3001_Project;
 			sourceTree = "<group>";
@@ -143,11 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BB379F27F4D5CF0011A602 /* GameViewController.swift in Sources */,
 				50BB378527EBAACC0011A602 /* ViewController.swift in Sources */,
 				50BB378127EBAACC0011A602 /* AppDelegate.swift in Sources */,
+				50BB37A127F4D5DF0011A602 /* CreditsViewController.swift in Sources */,
 				50BB378327EBAACC0011A602 /* SceneDelegate.swift in Sources */,
 				50BB379927F4C25C0011A602 /* BlackjackPlayer.swift in Sources */,
 				50BB379627F1151F0011A602 /* Card.swift in Sources */,
+				50BB379C27F4D5B60011A602 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

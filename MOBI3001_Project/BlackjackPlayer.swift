@@ -35,7 +35,7 @@ class BlackjackPlayer {
         hand.removeAll();
     }
     
-    func calc() {
+    func calc() -> Int {
         var tempScore = Int(0);
         for card in hand {
             if (card.revealed == true) {
@@ -48,5 +48,6 @@ class BlackjackPlayer {
                 tempScore -= 10;
             }
         }
+        return tempScore;
     }
 }
