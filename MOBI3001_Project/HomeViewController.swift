@@ -18,6 +18,17 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func btnPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "nameToGameSegue", sender: self);
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "nameToGameSegue") {
+            let game = segue.destination as! GameViewController;
+            game.playerName = nameField.text ?? "The Player";
+        }
+    }
+    
 
     /*
     // MARK: - Navigation

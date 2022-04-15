@@ -12,6 +12,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var scoreLbl: UILabel!
     @IBOutlet weak var hitBtn: UIButton!
     @IBOutlet weak var stayBtn: UIButton!
+    @IBOutlet weak var startBtn: UIButton!
     
     @IBOutlet weak var houseCard1: UIImageView!
     @IBOutlet weak var houseCard2: UIImageView!
@@ -25,10 +26,38 @@ class GameViewController: UIViewController {
     @IBOutlet weak var playerCard4: UIImageView!
     @IBOutlet weak var playerCard5: UIImageView!
     
+    var player = BlackjackPlayer();
+    var house = BlackjackPlayer(s1: "The House", i1: 0, i2: 2);
+    
+    var deck = [Card]();
+    var houseHand = [Card]();
+    var playerHand = [Card]();
+    
+    var gameEnded: Bool = false;
+    var playerName: String?;
+    var totalScore: Int = 0;
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
+        
+        player.name = playerName ?? "The Player";
 
         // Do any additional setup after loading the view.
+        for i in 1...52 {
+            let card = Card(temp: i);
+            deck.append(card);
+        }
+        deck.shuffle();
+        
+        for j in 0...9 {
+            if (j % 2 == 0) {
+                house.draw(crd: deck[j]);
+            } else {
+                player.draw(crd: deck[j]);
+            }
+        }
+        houseHand = house.hand;
+        playerHand = player.hand;
     }
     
 
