@@ -108,6 +108,9 @@
                                 <state key="normal" title="H I T">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="hitBtnPressed:" destination="s7J-oL-7WA" eventType="touchUpInside" id="2a4-5x-kpB"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ib-tu-nf6">
                                 <rect key="frame" x="265" y="379" width="100" height="50"/>
@@ -120,6 +123,9 @@
                                 <state key="normal" title="S T A Y">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="stayBtnPressed:" destination="s7J-oL-7WA" eventType="touchUpInside" id="mje-ES-HO0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gb-Ja-fBA">
                                 <rect key="frame" x="143" y="450.5" width="128" height="50"/>
@@ -132,6 +138,9 @@
                                 <state key="normal" title="S T A R T">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="startBtnPressed:" destination="s7J-oL-7WA" eventType="touchUpInside" id="sOH-i7-byw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rBj-kj-bIl"/>
