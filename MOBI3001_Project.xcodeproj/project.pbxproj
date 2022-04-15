@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5043F8882809DA8E005ABB57 /* ProjectDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5043F8862809DA8E005ABB57 /* ProjectDataModel.xcdatamodeld */; };
 		50BB378127EBAACC0011A602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB378027EBAACC0011A602 /* AppDelegate.swift */; };
 		50BB378327EBAACC0011A602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB378227EBAACC0011A602 /* SceneDelegate.swift */; };
 		50BB378527EBAACC0011A602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB378427EBAACC0011A602 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5043F8872809DA8E005ABB57 /* ProjectDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectDataModel.xcdatamodel; sourceTree = "<group>"; };
 		50BB377D27EBAACC0011A602 /* MOBI3001_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOBI3001_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BB378027EBAACC0011A602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50BB378227EBAACC0011A602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				50BB379527F1151F0011A602 /* Card.swift */,
 				50BB379827F4C25C0011A602 /* BlackjackPlayer.swift */,
 				50BB379B27F4D5B60011A602 /* HomeViewController.swift */,
+				5043F8862809DA8E005ABB57 /* ProjectDataModel.xcdatamodeld */,
 				50BB379E27F4D5CF0011A602 /* GameViewController.swift */,
 				50BB37A027F4D5DF0011A602 /* CreditsViewController.swift */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				50BB379F27F4D5CF0011A602 /* GameViewController.swift in Sources */,
 				50BB378527EBAACC0011A602 /* ViewController.swift in Sources */,
+				5043F8882809DA8E005ABB57 /* ProjectDataModel.xcdatamodeld in Sources */,
 				50BB378127EBAACC0011A602 /* AppDelegate.swift in Sources */,
 				50BB37A127F4D5DF0011A602 /* CreditsViewController.swift in Sources */,
 				50BB378327EBAACC0011A602 /* SceneDelegate.swift in Sources */,
@@ -359,6 +363,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5043F8862809DA8E005ABB57 /* ProjectDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5043F8872809DA8E005ABB57 /* ProjectDataModel.xcdatamodel */,
+			);
+			currentVersion = 5043F8872809DA8E005ABB57 /* ProjectDataModel.xcdatamodel */;
+			path = ProjectDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 50BB377527EBAACC0011A602 /* Project object */;
 }

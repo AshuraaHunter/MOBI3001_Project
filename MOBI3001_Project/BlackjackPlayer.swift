@@ -28,7 +28,7 @@ class BlackjackPlayer {
     }
     
     func draw(crd: Card) {
-        hand.insert(crd, at: 0);
+        hand.append(crd);
     }
     
     func dump() {

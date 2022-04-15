@@ -14,81 +14,81 @@
             <objects>
                 <viewController title="Game" id="s7J-oL-7WA" customClass="GameViewController" customModule="MOBI3001_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F1K-7u-GDl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="fyk-db-ADJ">
-                                <rect key="frame" x="30" y="177" width="60" height="90"/>
+                                <rect key="frame" x="30" y="221" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="Npc-ic-3mb"/>
                                     <constraint firstAttribute="height" constant="90" id="ubk-mA-xlr"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="jaQ-1j-NYI">
-                                <rect key="frame" x="98" y="177" width="60" height="90"/>
+                                <rect key="frame" x="98" y="221" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="O0Y-We-XhN"/>
                                     <constraint firstAttribute="width" constant="60" id="zcF-q4-Gxi"/>
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="WIG-pT-44i">
-                                <rect key="frame" x="166" y="177" width="60" height="90"/>
+                                <rect key="frame" x="166" y="221" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="alH-5m-qGD"/>
                                     <constraint firstAttribute="height" constant="90" id="l5R-wR-M6X"/>
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="Skh-un-cW0">
-                                <rect key="frame" x="234" y="177" width="60" height="90"/>
+                                <rect key="frame" x="234" y="221" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Ip9-fc-kSp"/>
                                     <constraint firstAttribute="width" constant="60" id="X0m-u2-7bC"/>
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="5M5-6M-yls">
-                                <rect key="frame" x="302" y="177" width="60" height="90"/>
+                                <rect key="frame" x="302" y="221" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="2uF-rh-7GN"/>
                                     <constraint firstAttribute="height" constant="90" id="m1Y-RY-dXw"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="O8h-2h-Yw7">
-                                <rect key="frame" x="30" y="508" width="60" height="90"/>
+                                <rect key="frame" x="30" y="552" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="IlL-ab-V0m"/>
                                     <constraint firstAttribute="height" constant="90" id="oxi-C9-KSC"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="r9z-tl-06B">
-                                <rect key="frame" x="98" y="508" width="60" height="90"/>
+                                <rect key="frame" x="98" y="552" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Mrp-8y-lhp"/>
                                     <constraint firstAttribute="width" constant="60" id="kDb-P5-flT"/>
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="p71-oJ-BRG">
-                                <rect key="frame" x="166" y="508" width="60" height="90"/>
+                                <rect key="frame" x="166" y="552" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="u1X-DN-KWq"/>
                                     <constraint firstAttribute="height" constant="90" id="unV-8W-DPK"/>
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="wxR-pd-EnY">
-                                <rect key="frame" x="234" y="508" width="60" height="90"/>
+                                <rect key="frame" x="234" y="552" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="3Zw-kM-te4"/>
                                     <constraint firstAttribute="height" constant="90" id="6l2-Rx-y4S"/>
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardback_red2" translatesAutoresizingMaskIntoConstraints="NO" id="nYJ-qd-yTw">
-                                <rect key="frame" x="302" y="508" width="60" height="90"/>
+                                <rect key="frame" x="302" y="552" width="60" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="580-3B-9Em"/>
                                     <constraint firstAttribute="width" constant="60" id="X8v-x9-0pP"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Va-0A-npY">
-                                <rect key="frame" x="157" y="354" width="100" height="100"/>
+                                <rect key="frame" x="157" y="378.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="XLH-3N-cUr"/>
                                     <constraint firstAttribute="width" constant="100" id="vsY-xq-EGA"/>
@@ -98,7 +98,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGv-j7-yhj">
-                                <rect key="frame" x="49" y="379" width="100" height="50"/>
+                                <rect key="frame" x="49" y="403.5" width="100" height="50"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="lvV-QC-4Rz"/>
@@ -113,7 +113,7 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ib-tu-nf6">
-                                <rect key="frame" x="265" y="379" width="100" height="50"/>
+                                <rect key="frame" x="265" y="403.5" width="100" height="50"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Lq6-Gu-bEP"/>
@@ -128,7 +128,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gb-Ja-fBA">
-                                <rect key="frame" x="143" y="450.5" width="128" height="50"/>
+                                <rect key="frame" x="143" y="475" width="128" height="50"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="128" id="7Y9-sH-j4I"/>
@@ -322,6 +322,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameFieldDoneEditing:" destination="ZTU-Sy-wcI" eventType="editingDidEndOnExit" id="gYB-fQ-LJy"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBf-F0-zj3">
                                 <rect key="frame" x="157" y="453" width="100" height="50"/>
@@ -357,11 +360,14 @@
                     <connections>
                         <outlet property="nameBtn" destination="FBf-F0-zj3" id="9iy-zT-mB0"/>
                         <outlet property="nameField" destination="9Du-Ti-lRo" id="t75-OM-vq6"/>
-                        <segue destination="s7J-oL-7WA" kind="show" identifier="nameToGameSegue" id="tMK-bQ-wyc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Oe-vJ-Vjn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="TgH-gw-5ZO"/>
+                <tapGestureRecognizer id="TgH-gw-5ZO">
+                    <connections>
+                        <action selector="bgTap:" destination="ZTU-Sy-wcI" id="bLa-6H-G0B"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1235" y="-176"/>
         </scene>
@@ -385,9 +391,6 @@
             <point key="canvasLocation" x="-276" y="127"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="tMK-bQ-wyc"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="cardback_red2" width="140" height="190"/>
         <image name="pen" width="30" height="30"/>
