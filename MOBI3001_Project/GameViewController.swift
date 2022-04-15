@@ -9,6 +9,22 @@ import UIKit
 
 class GameViewController: UIViewController {
 
+    @IBOutlet weak var scoreLbl: UILabel!
+    @IBOutlet weak var hitBtn: UIButton!
+    @IBOutlet weak var stayBtn: UIButton!
+    
+    @IBOutlet weak var houseCard1: UIImageView!
+    @IBOutlet weak var houseCard2: UIImageView!
+    @IBOutlet weak var houseCard3: UIImageView!
+    @IBOutlet weak var houseCard4: UIImageView!
+    @IBOutlet weak var houseCard5: UIImageView!
+    
+    @IBOutlet weak var playerCard1: UIImageView!
+    @IBOutlet weak var playerCard2: UIImageView!
+    @IBOutlet weak var playerCard3: UIImageView!
+    @IBOutlet weak var playerCard4: UIImageView!
+    @IBOutlet weak var playerCard5: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

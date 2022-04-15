@@ -9,6 +9,9 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var nameBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
